@@ -1,0 +1,4 @@
+*.tgz
+.editorconfig
+.npmignore
+test

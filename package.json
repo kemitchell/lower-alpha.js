@@ -10,7 +10,6 @@
   "files": [
     "index.js",
     "LICENSE",
-    "NOTICE",
     "README.md"
   ],
   "keywords": [
@@ -18,7 +17,7 @@
     "numbering",
     "numbers"
   ],
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": "kemitchell/lower-alpha.js",
   "scripts": {
     "test": "defence README.md | replace-require-self | node"

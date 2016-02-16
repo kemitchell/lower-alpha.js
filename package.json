@@ -17,7 +17,6 @@
     "numbers"
   ],
   "license": "Apache-2.0",
-  "main": "lower-alpha.js",
   "name": "lower-alpha",
   "repository": {
     "type": "git",

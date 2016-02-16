@@ -1,29 +1,20 @@
 {
-  "author": {
-    "name": "Kyle E. Mitchell",
-    "email": "kyle@kemitchell.com",
-    "url": "http://kemitchell.com/"
-  },
-  "bugs": "https://github.com/kemitchell/lower-alpha.js/issues",
+  "name": "lower-alpha",
   "description": "converts natural numbers to strings of [a-z]",
+  "version": "1.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "devDependencies": {
     "defence-cli": "^1.0.5",
     "replace-require-self": "^1.1.0"
   },
-  "homepage": "https://github.com/kemitchell/lower-alpha.js",
   "keywords": [
     "enumeration",
     "numbering",
     "numbers"
   ],
   "license": "Apache-2.0",
-  "name": "lower-alpha",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kemitchell/lower-alpha.js.git"
-  },
+  "repository": "kemitchell/lower-alpha.js",
   "scripts": {
     "test": "defence README.md | replace-require-self | node"
-  },
-  "version": "1.0.0"
+  }
 }

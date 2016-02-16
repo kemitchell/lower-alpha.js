@@ -8,7 +8,7 @@ module.exports = function(argument) {
   var letters = alphabet[offset % 26];
   while ((offset = Math.floor(offset / 26)) > 0) {
     --offset;
-    letters = letters + alphabet[offset % 26];
+    letters = alphabet[offset % 26] + letters;
   }
   return letters;
 };

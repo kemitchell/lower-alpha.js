@@ -22,5 +22,8 @@
   "repository": "kemitchell/lower-alpha.js",
   "scripts": {
     "test": "defence README.md | replace-require-self | node"
+  },
+  "dependencies": {
+    "alphabet-numbering": "^1.0.0"
   }
 }

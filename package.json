@@ -7,6 +7,12 @@
     "defence-cli": "^1.0.5",
     "replace-require-self": "^1.1.0"
   },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
   "keywords": [
     "enumeration",
     "numbering",
